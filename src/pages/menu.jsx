@@ -1,40 +1,43 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-
-import "../styles/global.css";
+import { Link } from "gatsby";
 
 import { content } from "../content/languages";
 import intakeInfo from "../content/intake";
+import { menu } from "../content/menu";
 
-import Hero from "../components/Hero";
-import Intro from "../components/Intro";
-import Menu from "../components/Menu";
-import Contact from "../components/Contact";
+const menuPage = (props) => {
+  console.log(menu);
 
-const IndexPage = function (props) {
   let { language, languageToUse } = props;
 
   language === "english"
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
 
-  console.log(languageToUse);
-  console.log(languageToUse.metaKeywords);
+  const menuList = menu.map((menuItem) => {
+    return (
+      <div key={menuItem.index}>
+        <p>{menuItem.name}</p>
+        <p>{menuItem.price}</p>
+      </div>
+    );
+  });
+
   return (
     <>
       <Helmet>
-        <title>{languageToUse.indexTitle}</title>
+        <title>Menu || {languageToUse.indexTitle}</title>
         <meta name="robots" content="index, follow" />
         <meta name="description" content={languageToUse.metaDescription} />
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
-      <Hero />
-      <Intro />
-      <Menu />
-      <Contact />
+      Menu Page
+      <Link to="/">HomePage</Link>
+      {menuList}
     </>
   );
 };
 
-export default IndexPage;
+export default menuPage;

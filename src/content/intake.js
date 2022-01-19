@@ -1,10 +1,10 @@
 const intakeInfo = {
-  companyName: "Template",
-  companyAddress: "Template Street",
-  domainName: "www.template.com",
+  companyName: "Le Rendez Vous",
+  companyAddress: "Rue du Soleil, 73440 Val Thorens, France",
+  domainName: "https://www.lerendezvousvalthorens.com/",
 
-  siteName: "Template site",
-  highlightColor: "#ff00ff",
+  siteName: "Le Rendez Vous | Val Thorens",
+  highlightColor: "#a83965",
 
   taxNumber: "1313",
 };
