@@ -29,6 +29,7 @@ const menuPage = (props) => {
   function handleClick(category) {
     setCategory(category);
     setShowDishes(true);
+    window.scrollTo(0, 0);
   }
 
   const menuList = menu
@@ -39,12 +40,20 @@ const menuPage = (props) => {
           <div className="menu-item">
             <div className="menu-item-description">
               <p className="item-name">{menuItem.name} </p>
-              <p>{menuItem.frenchDescription}</p>
-              <p>
-                <i>{menuItem.englishDescription}</i>
-              </p>
+              {menuItem.frenchDescription ? (
+                <p>{menuItem.frenchDescription}</p>
+              ) : null}
+              {menuItem.englishDescription ? (
+                <p>
+                  <i>{menuItem.englishDescription}</i>
+                </p>
+              ) : null}
             </div>
-            <p className="price">{menuItem.price}</p>
+
+            <span className="price">
+              {menuItem.price.toFixed(2)} €
+              {menuItem.perPerson ? <span> / pers</span> : null}
+            </span>
           </div>
         </div>
       );
@@ -92,7 +101,9 @@ const menuPage = (props) => {
         </>
       ) : (
         <div className="category-buttons">
-          <img src={logo} alt="logo" className="external-menu-logo" />
+          <Link to="/">
+            <img src={logo} alt="logo" className="external-menu-logo" />
+          </Link>
           {categoryButtons}
         </div>
       )}

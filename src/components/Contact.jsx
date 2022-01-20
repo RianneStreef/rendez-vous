@@ -27,7 +27,7 @@ const Contact = (props) => {
           name="contact"
           method="post"
           data-netlify="true"
-          action="/message"
+          action="/success"
           netlify-honeypot="bot-field"
         >
           <input
@@ -68,7 +68,7 @@ const Contact = (props) => {
           </p>
           <div className="button-container">
             <button
-              className="custom_button"
+              className="custom-button"
               type="submit"
               value="Submit message"
             >

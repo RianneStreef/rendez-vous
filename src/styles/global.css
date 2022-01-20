@@ -68,3 +68,16 @@ h4 {
   background-attachment: fixed;
   background-size: cover;
 }
+
+.custom-button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: centerw;
+}

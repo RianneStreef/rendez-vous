@@ -3,6 +3,43 @@
   color: var(--color-text-light);
 }
 
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer-items > * {
+  width: 30%;
+}
+
+.footer a {
+  color: #fff;
+}
+
 .social-links img {
   width: 30px;
+}
+
+.address {
+  text-align: center;
+}
+
+.set-language-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  width: 25px;
+  margin: 20px;
+}
+
+.opaque {
+  opacity: 100%;
+}
+
+.fade {
+  opacity: 50%;
 }

@@ -1,5 +1,5 @@
 export const menuCategories = [
-  "Nos Cicchettis a Partager",
+  "Nos Cicchettis à Partager",
   "Entrées",
   "La Pasta",
   "La Viande",
@@ -13,7 +13,7 @@ export const menuCategories = [
 export const menu = [
   {
     index: 1,
-    categoryFrench: "Nos Cicchettis a Partager",
+    categoryFrench: "Nos Cicchettis à Partager",
     categoryEnglish: "Sharing Platters",
     name: "Arancini x4",
     frenchDescription:
@@ -26,7 +26,7 @@ export const menu = [
   },
   {
     index: 2,
-    categoryFrench: "Nos Cicchettis a Partager",
+    categoryFrench: "Nos Cicchettis à Partager",
     categoryEnglish: "Sharing Platters",
     name: "Arancini x4",
     frenchDescription: "Assortiment de charcuterie et de fromages italiens ",
@@ -38,7 +38,7 @@ export const menu = [
   },
   {
     index: 3,
-    categoryFrench: "Nos Cicchettis a Partager",
+    categoryFrench: "Nos Cicchettis à Partager",
     categoryEnglish: "Sharing Platters",
     name: "Polpette di melanzane x 4",
     frenchDescription:
@@ -51,7 +51,7 @@ export const menu = [
   },
   {
     index: 4,
-    categoryFrench: "Nos Cicchettis a Partager",
+    categoryFrench: "Nos Cicchettis à Partager",
     categoryEnglish: "Sharing Platters",
     name: "Montanare x 4",
     frenchDescription: "Mini pizzas façon beignet, tomate, parmesan, basilic",
@@ -63,7 +63,7 @@ export const menu = [
 
   {
     index: 5,
-    categoryFrench: "Nos Cicchettis a Partager",
+    categoryFrench: "Nos Cicchettis à Partager",
     categoryEnglish: "Sharing Platters",
     name: "Crochette di patate",
     frenchDescription: "Croquettes de pdt farcies au jambon et fromage",
@@ -74,7 +74,7 @@ export const menu = [
   },
   {
     index: 6,
-    categoryFrench: "Nos Cicchettis a Partager",
+    categoryFrench: "Nos Cicchettis à Partager",
     categoryEnglish: "Sharing Platters",
     name: "Roulés de pizza au jambon",
     frenchDescription: "Jambon, burratina, champignons, roquette",

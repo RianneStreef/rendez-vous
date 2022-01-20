@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "gatsby";
 import { menu } from "../content/menu";
 
+import "../styles/Menu.css";
+
 const Menu = () => {
   const menuList = menu.map((menuItem) => {
     return (

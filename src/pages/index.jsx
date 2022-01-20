@@ -36,17 +36,17 @@ const IndexPage = function (props) {
         setLanguage={setLanguage}
         languageToUse={languageToUse}
       />
-      <Hero />
+      <Hero language={language} languageToUse={languageToUse} />
       <div className="padding">
-        <Intro />
+        <Intro language={language} languageToUse={languageToUse} />
       </div>
       <div className="banner" />
       <div className="padding">
-        <Menu />
+        <Menu language={language} languageToUse={languageToUse} />
       </div>
       <div className="banner2" />
       <div className="padding">
-        <Contact />
+        <Contact language={language} languageToUse={languageToUse} />
       </div>
       <Footer
         language={language}

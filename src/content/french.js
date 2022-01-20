@@ -39,4 +39,8 @@ export const french = {
   send: "Envoyer",
 
   socialTitle: "Follow Us",
+
+  copyright: "Le Rendez Vous. Tous droits réservés.",
+  mentionsLegal: "Mentions Légales",
+  created: "Crée par VTS Web Design",
 };
