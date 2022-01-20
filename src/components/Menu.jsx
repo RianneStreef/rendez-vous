@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import { menu } from "../content/menu";
 
 const Menu = () => {
@@ -6,14 +7,19 @@ const Menu = () => {
     return (
       <div key={menuItem.index}>
         <p>{menuItem.name}</p>
+        <p>{menuItem.frenchDescription}</p>
+        <p>{menuItem.englishDescription}</p>
         <p>{menuItem.price}</p>
       </div>
     );
   });
   return (
-    <div>
+    <div id="menu">
       <h2>Menu</h2>
-      {menuList}
+      {/* {menuList} */}
+      <p>
+        Check out our menu <Link to="/menu">Here!</Link>
+      </p>
     </div>
   );
 };

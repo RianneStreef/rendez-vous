@@ -6,13 +6,15 @@ import "../styles/global.css";
 import { content } from "../content/languages";
 import intakeInfo from "../content/intake";
 
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Intro from "../components/Intro";
 import Menu from "../components/Menu";
 import Contact from "../components/Contact";
 
 const IndexPage = function (props) {
-  let { language, languageToUse } = props;
+  let { language, languageToUse, setLanguage } = props;
 
   language === "english"
     ? (languageToUse = content.english)
@@ -29,10 +31,28 @@ const IndexPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
+      <Header
+        language={language}
+        setLanguage={setLanguage}
+        languageToUse={languageToUse}
+      />
       <Hero />
-      <Intro />
-      <Menu />
-      <Contact />
+      <div className="padding">
+        <Intro />
+      </div>
+      <div className="banner" />
+      <div className="padding">
+        <Menu />
+      </div>
+      <div className="banner2" />
+      <div className="padding">
+        <Contact />
+      </div>
+      <Footer
+        language={language}
+        setLanguage={setLanguage}
+        languageToUse={languageToUse}
+      />
     </>
   );
 };

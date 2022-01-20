@@ -1,12 +1,18 @@
 import React from "react";
-import heroImage from "../images/bar.jpg";
+import { content } from "../content/languages";
 
 import "../styles/Hero.css";
 
-const Hero = () => {
+const Hero = (props) => {
+  let { language, languageToUse } = props;
+
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
   return (
-    <div>
-      <img src={heroImage} alt="" className="hero" />
+    <div className="hero">
+      <h2>{languageToUse.welcome}</h2>
+      <h1>{languageToUse.rendezVous}</h1>
     </div>
   );
 };

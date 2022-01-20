@@ -2,3 +2,7 @@
   background-color: var(--color-background-dark);
   color: var(--color-text-light);
 }
+
+.social-links img {
+  width: 30px;
+}

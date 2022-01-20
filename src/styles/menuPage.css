@@ -1,0 +1,84 @@
+.external-menu {
+  padding: 20px;
+}
+
+.external-menu-logo {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.back-button {
+  background-color: transparent;
+  border: none;
+  width: 10vw;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.external-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back {
+  width: 8vw;
+}
+
+.home-link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.external-nav-logo {
+  width: 30%;
+  height: 30%;
+}
+
+.category-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-button {
+  width: 90vw;
+  height: 20vw;
+  margin: 20px;
+  background-color: var(--color-background);
+  font-family: "Herr", sans-serif;
+  font-size: 50px;
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  color: var(--color-highlight);
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-item-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item-description p {
+  margin: 10px;
+}
+
+.item-name {
+  font-size: 20px;
+}
+
+.price {
+  width: 10vw;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.evening-only {
+  text-align: right;
+}

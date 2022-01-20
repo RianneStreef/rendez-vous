@@ -2,14 +2,6 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-// const intakeInfo = require("./src/content/intake");
-
-// let { siteName, companyName, highlightColor } = intakeInfo;
-
-// console.log("intake info in config");
-// console.log(intakeInfo);
-// console.log(siteName);
-
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
@@ -21,12 +13,11 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "siteName",
-        short_name: "companyName",
+        name: "Restaurant le Rendez Vous || Val Thorens",
+        short_name: "Le Rendez Vous",
         start_url: "/",
-        background_color: "#e30613",
-        theme_color: "#ff00ff",
-        display: "fullscreen",
+        background_color: "#fff",
+        theme_color: "#a83965",
         icon: "src/images/icon.png",
       },
     },
