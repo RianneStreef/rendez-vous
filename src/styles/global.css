@@ -64,7 +64,7 @@ h4 {
 
 .banner2 {
   height: 40vh;
-  background-image: url("../images/restaurant-upstairs.jpg");
+  background-image: url("../images/restaurant2.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -79,5 +79,5 @@ h4 {
 .button-container {
   display: flex;
   justify-content: center;
-  align-items: centerw;
+  align-items: center;
 }
