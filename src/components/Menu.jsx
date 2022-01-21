@@ -2,9 +2,18 @@ import React from "react";
 import { Link } from "gatsby";
 import { menu } from "../content/menu";
 
+import { content } from "../content/languages";
+
+import snowflake from "../images/snowflake.png";
+
 import "../styles/Menu.css";
 
-const Menu = () => {
+const Menu = (props) => {
+  let { language, languageToUse } = props;
+
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
   const menuList = menu.map((menuItem) => {
     return (
       <div key={menuItem.index}>
@@ -16,11 +25,23 @@ const Menu = () => {
     );
   });
   return (
-    <div id="menu">
+    <div id="menu" className="menu">
       <h2>Menu</h2>
-      {/* {menuList} */}
+      <p className="different-menus">
+        {languageToUse.breakfast}{" "}
+        <img src={snowflake} alt="" className="snowflake" />{" "}
+        {languageToUse.lunch}{" "}
+        <img src={snowflake} alt="" className="snowflake" />{" "}
+        {languageToUse.dinner}{" "}
+        <img src={snowflake} alt="" className="snowflake" />{" "}
+        {languageToUse.drinks}
+      </p>
       <p>
-        Check out our menu <Link to="/menu">Here!</Link>
+        <div className="button-container">
+          <Link to="/menu" className="link-button">
+            Menu
+          </Link>
+        </div>
       </p>
     </div>
   );

@@ -11,14 +11,15 @@ const Intro = (props) => {
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
   return (
-    <div id="intro">
+    <div id="intro" className="intro">
       <h2>{languageToUse.introTitle}</h2>
+      <h3 className="underTitle">{languageToUse.introUnderTitle}</h3>
+
       <p>{languageToUse.introText}</p>
-      <h4>{languageToUse.introUnderTitle}</h4>
       <p>{languageToUse.introText2}</p>
-      <h4>{languageToUse.introUnderTitle2}</h4>
+      {/* <h4>{languageToUse.introUnderTitle2}</h4> */}
       <p>{languageToUse.introText3}</p>
-      <h4>{languageToUse.introUnderTitle3}</h4>
+      {/* <h4>{languageToUse.introUnderTitle3}</h4> */}
       <p>{languageToUse.introText4}</p>
     </div>
   );

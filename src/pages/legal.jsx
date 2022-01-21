@@ -1,5 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 import intakeInfo from "../content/intake";
 
@@ -8,6 +10,7 @@ import "../styles/legal.css";
 const LegalPage = () => {
   return (
     <>
+      <Header />
       <div className="header-placeholder" />
       <div className="legal">
         <h2>Informations légales</h2>
@@ -284,6 +287,7 @@ const LegalPage = () => {
           4 de la loi n° 78-17 du 6 janvier 1978).
         </p>
       </div>
+      <Footer />
     </>
   );
 };

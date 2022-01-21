@@ -16,6 +16,13 @@
   text-align: left;
 }
 
+.category-name {
+  color: var(--color-highlight);
+  font-family: "Italianno", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
 .external-nav {
   display: flex;
   justify-content: space-between;
@@ -45,11 +52,10 @@
 
 .category-button {
   width: 90vw;
-  height: 20vw;
   margin: 20px;
   background-color: var(--color-background);
   font-family: "Herr", sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   border: none;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   color: var(--color-highlight);

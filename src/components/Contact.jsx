@@ -12,7 +12,7 @@ const Contact = (props) => {
   return (
     <div className="contact" id="contact">
       <h2 className="h2">{languageToUse.contact}</h2>
-      <h3>{languageToUse.contactUnderTitle}</h3>
+      <h3 className="underTitle">{languageToUse.contactUnderTitle}</h3>
       <div className="contact-total">
         <div className="contact-left">
           <p>{languageToUse.contactText1}</p>

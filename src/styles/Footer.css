@@ -1,6 +1,7 @@
 .footer {
   background-color: var(--color-background-dark);
   color: var(--color-text-light);
+  padding: 20px;
 }
 
 .footer-items {
@@ -18,11 +19,16 @@
 }
 
 .social-links img {
-  width: 30px;
+  width: 20px;
 }
 
 .address {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
 }
 
 .set-language-footer {
@@ -33,7 +39,7 @@
 
 .flag {
   width: 25px;
-  margin: 20px;
+  margin: 5px;
 }
 
 .opaque {

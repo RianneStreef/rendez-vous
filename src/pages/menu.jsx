@@ -65,7 +65,7 @@ const menuPage = (props) => {
         className="category-button"
         onClick={() => handleClick(categoryItem)}
       >
-        {categoryItem}
+        <p className="category-name"> {categoryItem}</p>
       </button>
     );
   });

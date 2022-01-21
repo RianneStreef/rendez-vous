@@ -10,16 +10,24 @@ const Header = () => {
     <div className="header">
       <ul className="links">
         <li>
-          <Link to="/#intro">Intro</Link>
+          <Link to="/#intro" className="nav-link">
+            Intro
+          </Link>
         </li>
         <li>
-          <Link to="/#menu">Menu</Link>
+          <Link to="/#menu" className="nav-link">
+            Menu
+          </Link>
         </li>
         <li>
-          <Link to="/#contact">Contact</Link>
+          <Link to="/#contact" className="nav-link">
+            Contact
+          </Link>
         </li>
       </ul>
-      <img src={logo} alt="Logo" className="logo" />
+      <Link to="/" className="logo-link">
+        <img src={logo} alt="Logo" className="logo" />
+      </Link>
     </div>
   );
 };

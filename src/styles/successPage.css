@@ -1,0 +1,12 @@
+.success-message {
+  min-height: calc(100vh - 150px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.success-message a {
+  color: #000;
+  text-decoration: none;
+}

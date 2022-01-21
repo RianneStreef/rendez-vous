@@ -24,6 +24,11 @@ export const french = {
 
   eveningOnly: "Le soir uniquement",
 
+  breakfast: "Petit-déjeuner",
+  lunch: "Midi",
+  dinner: "Soir",
+  drinks: "Aperitif",
+
   contact: "Contact",
   contactUnderTitle: "& Horaires",
 
@@ -38,7 +43,9 @@ export const french = {
   message: "Message",
   send: "Envoyer",
 
-  socialTitle: "Follow Us",
+  thankYou: "Merci pour votre message! ",
+
+  socialTitle: "Follow Us!",
 
   copyright: "Le Rendez Vous. Tous droits réservés.",
   mentionsLegal: "Mentions Légales",
