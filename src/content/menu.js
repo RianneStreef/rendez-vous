@@ -22,7 +22,7 @@ export const menu = [
       "Deep fried saffron rice balls stuffed with scarmorza, peas and meat",
     price: 12,
     perPerson: false,
-    eveningOnly: false,
+    eveningOnly: true,
   },
   {
     index: 2,
@@ -379,7 +379,7 @@ export const menu = [
       "Beef, chicken and veal, cooked at the table on a hot stone with raw vegetables and fries",
     price: 35,
     perPerson: true,
-    eveningOnly: true,
+    eveningOnly: false,
   },
 
   {

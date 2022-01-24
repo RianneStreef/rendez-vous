@@ -1,6 +1,6 @@
 .contact-total {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 
@@ -8,7 +8,7 @@ input,
 textarea {
   border: none;
   border-bottom: 1px solid #000;
-  width: 30vw;
+  width: 80vw;
 }
 
 input {
@@ -16,9 +16,24 @@ input {
 }
 
 .contact-left {
-  width: 40vw;
+  width: 90vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-total {
+    flex-direction: row;
+  }
+
+  input,
+  textarea {
+    width: 30vw;
+  }
+
+  .contact-left {
+    width: 40vw;
+  }
 }

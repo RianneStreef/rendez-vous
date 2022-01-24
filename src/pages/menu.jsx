@@ -36,7 +36,10 @@ const menuPage = (props) => {
     .filter((categoryItem) => category === categoryItem.categoryFrench)
     .map((menuItem) => {
       return (
-        <div key={menuItem.index}>
+        <div key={menuItem.index} className="menu-item-container">
+          {menuItem.eveningOnly === true ? (
+            <p className="evening-only">{languageToUse.eveningOnly}</p>
+          ) : null}
           <div className="menu-item">
             <div className="menu-item-description">
               <p className="item-name">{menuItem.name} </p>
@@ -51,8 +54,8 @@ const menuPage = (props) => {
             </div>
 
             <span className="price">
-              {menuItem.price.toFixed(2)} €
-              {menuItem.perPerson ? <span> / pers</span> : null}
+              {menuItem.price.toFixed(2)}€
+              {menuItem.perPerson ? <p> / pers</p> : null}
             </span>
           </div>
         </div>
@@ -93,10 +96,6 @@ const menuPage = (props) => {
       {showDishes ? (
         <>
           <h2>{category}</h2>
-          {category === "Nos Cicchettis a Partager" ? (
-            <p className="evening-only">{languageToUse.eveningOnly}</p>
-          ) : null}
-
           <div>{menuList}</div>
         </>
       ) : (

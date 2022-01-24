@@ -33,9 +33,9 @@ body {
 
 h1 {
   color: var(--color-text-light);
-  font-size: 50px;
   margin: 0;
   text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {

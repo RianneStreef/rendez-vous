@@ -6,12 +6,8 @@
 
 .footer-items {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
-}
-
-.footer-items > * {
-  width: 30%;
 }
 
 .footer a {
@@ -48,4 +44,13 @@
 
 .fade {
   opacity: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-items {
+    flex-direction: row;
+  }
+  .footer-items > * {
+    width: 30%;
+  }
 }

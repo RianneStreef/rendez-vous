@@ -9,5 +9,19 @@
 }
 
 .hero h2 {
-  font-size: 150px;
+  font-size: 80px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero h2 {
+    font-size: 150px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
 }

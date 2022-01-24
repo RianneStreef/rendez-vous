@@ -61,6 +61,11 @@
   color: var(--color-highlight);
 }
 
+.menu-item-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .menu-item {
   display: flex;
   flex-direction: row;
@@ -89,4 +94,6 @@
 
 .evening-only {
   text-align: right;
+  text-decoration: underline;
+  font-size: 25px;
 }
