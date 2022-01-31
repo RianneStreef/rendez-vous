@@ -3,6 +3,8 @@ import { content } from "../content/languages";
 
 import "../styles/Contact.css";
 
+import snowflake from "../images/snowflake.png";
+
 const Contact = (props) => {
   let { language, languageToUse } = props;
 
@@ -11,8 +13,17 @@ const Contact = (props) => {
     : (languageToUse = content.french);
   return (
     <div className="contact" id="contact">
+      <div className="header-placeholder" />
+
       <h2 className="h2">{languageToUse.contact}</h2>
       <h3 className="underTitle">{languageToUse.contactUnderTitle}</h3>
+
+      <div className="snowflakes">
+        <img src={snowflake} alt="" className="snowflake" />
+        <img src={snowflake} alt="" className="snowflake" />
+        <img src={snowflake} alt="" className="snowflake" />
+      </div>
+
       <div className="contact-total">
         <div className="contact-left">
           <p>{languageToUse.contactText1}</p>

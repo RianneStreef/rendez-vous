@@ -12,6 +12,10 @@
   display: flex;
 }
 
+.links li {
+  display: flex;
+}
+
 .logo {
   width: 80%;
   margin: 10px;

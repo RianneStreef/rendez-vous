@@ -1,19 +1,59 @@
 .hero {
   height: 100vh;
-  background-image: url("../images/bar.jpg");
-  background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+}
+
+.background-1 {
+  background-image: url("../images/hero2.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 2s ease-in-out;
+}
+
+.background-2 {
+  background-image: url("../images/bar.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 2s ease-in-out;
 }
 
 .hero h2 {
   font-size: 80px;
+  margin-top: 120px;
 }
 
 h1 {
   font-size: 30px;
+}
+
+.snowflakes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-button {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.phone-logo {
+  width: 12px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -23,5 +63,10 @@ h1 {
 
   h1 {
     font-size: 50px;
+  }
+
+  .hero {
+    background-position: center;
+    justify-content: center;
   }
 }

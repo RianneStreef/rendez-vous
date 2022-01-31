@@ -9,6 +9,12 @@
     url(../fonts/Italianno/Italianno-Regular.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Source Sans Pro Bold";
+  src: local("Source_Sans_Pro"),
+    url(../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf) format("truetype");
+}
+
 :root {
   --color-highlight: #a83965;
   --color-background-light: #fff;
@@ -43,12 +49,13 @@ h2 {
   font-family: "Italianno", sans-serif;
   font-size: 80px;
   text-align: center;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 h3 {
-  text-align: center;
   margin-top: 0;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 
 h4 {
@@ -58,11 +65,12 @@ h4 {
 .underTitle {
   font-size: 30px;
   margin-top: 0;
+  text-align: center;
 }
 
 .banner {
   height: 40vh;
-  background-image: url("../images/restaurant-upstairs.jpg");
+  background-image: url("../images/bar.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -91,6 +99,7 @@ h4 {
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  margin: 10px;
 }
 
 .link-button:visited {
@@ -110,5 +119,11 @@ h4 {
 
 .snowflake {
   width: 10px;
-  margin: auto;
+  margin: 0 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hidden-desktop {
+    display: none;
+  }
 }

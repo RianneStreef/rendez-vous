@@ -20,8 +20,6 @@ const IndexPage = function (props) {
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
 
-  console.log(languageToUse);
-  console.log(languageToUse.metaKeywords);
   return (
     <>
       <Helmet>

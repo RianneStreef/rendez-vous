@@ -7,6 +7,7 @@ export const english = {
 
   welcome: "Welcome",
   rendezVous: "Restaurant le Rendez Vous",
+  reserve: "Reserve now",
 
   introTitle: "Restaurant & Brasserie",
   introText:
@@ -22,10 +23,15 @@ export const english = {
     "To enjoy your evenings in Val Thorens, Le Rendez-Vous is the ideal bar for a drink. Real cocktail bar in the heart of Val Thorens, our bartenders prepare their specialties with passion and great atmosphere. And do not forget to have a look at our tapas menu!",
   eveningOnly: "Evenings only",
 
-  breakfast: "Breakfast",
-  lunch: "Lunch",
-  dinner: "Dinner",
-  drinks: "Drinks",
+  sharingPlatters: "Nos cicchettis à partager",
+  starters: "Starters",
+  pasta: "la Pasta",
+  meat: "Meat",
+  fish: "Fish",
+  specials: "Les Specialités Savoyardes",
+  pizza: "Les Pizzas",
+  kids: "For the kids",
+  desserts: "Les Desserts",
 
   contact: "Contact",
   contactUnderTitle: "& Opening Hours",

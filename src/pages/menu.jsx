@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "gatsby";
 
@@ -13,10 +13,6 @@ import back from "../images/back.png";
 import "../styles/menuPage.css";
 
 const menuPage = (props) => {
-  console.log("menuCategories");
-  console.log(menu);
-  console.log(menuCategories);
-
   let { language, languageToUse } = props;
 
   language === "english"
@@ -31,6 +27,44 @@ const menuPage = (props) => {
     setShowDishes(true);
     window.scrollTo(0, 0);
   }
+
+  const navBar = (
+    <div className="nav scroll-up" id="nav">
+      <button onClick={() => setShowDishes(false)} className="back-button">
+        <img src={back} alt="Go back" className="back" />
+      </button>
+      <Link to="/" className="home-link">
+        <img src={logo} alt="logo" className="external-nav-logo" />
+      </Link>
+    </div>
+  );
+
+  const nav = document.getElementById("nav");
+
+  // useEffect(() => {
+  //   const scrollUp = "scroll-up";
+  //   const scrollDown = "scroll-down";
+  //   let lastScroll = 0;
+  //   window.addEventListener("scroll", () => {
+  //     const currentScroll = window.pageYOffset;
+  //     if (currentScroll <= 0) {
+  //       nav.classList.remove(scrollUp);
+  //       return;
+  //     }
+
+  //     if (currentScroll > lastScroll && !nav.classList.contains(scrollDown)) {
+  //       nav.classList.remove(scrollUp);
+  //       nav.classList.add(scrollDown);
+  //     } else if (
+  //       currentScroll < lastScroll &&
+  //       nav.classList.contains(scrollDown)
+  //     ) {
+  //       nav.classList.remove(scrollDown);
+  //       nav.classList.add(scrollUp);
+  //     }
+  //     lastScroll = currentScroll;
+  //   });
+  // });
 
   const menuList = menu
     .filter((categoryItem) => category === categoryItem.categoryFrench)
@@ -83,16 +117,7 @@ const menuPage = (props) => {
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
 
-      {showDishes ? (
-        <div className="external-nav">
-          <button onClick={() => setShowDishes(false)} className="back-button">
-            <img src={back} alt="Go back" className="back" />
-          </button>
-          <Link to="/" className="home-link">
-            <img src={logo} alt="logo" className="external-nav-logo" />
-          </Link>
-        </div>
-      ) : null}
+      {showDishes ? navBar : null}
       {showDishes ? (
         <>
           <h2>{category}</h2>

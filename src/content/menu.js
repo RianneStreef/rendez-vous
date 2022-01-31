@@ -383,7 +383,7 @@ export const menu = [
   },
 
   {
-    index: 33,
+    index: 32,
     categoryFrench: "Les Pizzas",
     name: "Focaccia",
     frenchDescription: "Roquette, jambon cru, burratina, tomates cerise, pesto",
@@ -403,17 +403,7 @@ export const menu = [
     perPerson: false,
     eveningOnly: false,
   },
-  {
-    index: 33,
-    categoryFrench: "Les Pizzas",
-    name: "Focaccia",
-    frenchDescription: "Roquette, jambon cru, burratina, tomates cerise, pesto",
-    englishDescription:
-      "Rocket salad, cured ham, burratina, cherry tomato, pesto",
-    price: 20,
-    perPerson: false,
-    eveningOnly: false,
-  },
+
   {
     index: 34,
     categoryFrench: "Les Pizzas",

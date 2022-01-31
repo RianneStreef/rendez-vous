@@ -3,15 +3,30 @@ import { Link } from "gatsby";
 
 import logo from "../images/icon.png";
 
+import flagEn from "../images/icon-en.png";
+import flagFr from "../images/icon-fr.png";
+
+import { content } from "../content/languages";
+
 import "../styles/Header.css";
 
-const Header = () => {
+const Header = (props) => {
+  let { language, languageToUse, setLanguage } = props;
+
+  function handleSetLanguage(language) {
+    setLanguage(language);
+    localStorage.setItem("languageInStorage", language);
+  }
+
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
   return (
     <div className="header">
       <ul className="links">
         <li>
           <Link to="/#intro" className="nav-link">
-            Intro
+            {languageToUse.welcome}
           </Link>
         </li>
         <li>
@@ -23,6 +38,24 @@ const Header = () => {
           <Link to="/#contact" className="nav-link">
             Contact
           </Link>
+        </li>
+        <li>
+          <div className="set-language-footer">
+            <img
+              src={flagEn}
+              onClick={() => handleSetLanguage("english")}
+              className={`flag ${
+                languageToUse.language === "english" ? "opaque" : "fade"
+              } `}
+            />
+            <img
+              src={flagFr}
+              onClick={() => handleSetLanguage("french")}
+              className={`flag ${
+                languageToUse.language === "french" ? "opaque" : "fade"
+              } `}
+            />
+          </div>
         </li>
       </ul>
       <Link to="/" className="logo-link">
