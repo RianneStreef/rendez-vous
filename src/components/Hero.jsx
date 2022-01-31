@@ -19,8 +19,6 @@ const Hero = (props) => {
     setTimeout(() => {
       setBackground(!background);
     }, 5000);
-    //   const backgroundSlider = document.getElementById("hero");
-    //   slider = backgroundSlider;
   });
 
   return (
