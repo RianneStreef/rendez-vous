@@ -39,9 +39,9 @@ const menuPage = (props) => {
     </div>
   );
 
+  // useEffect(() => {
   const nav = document.getElementById("nav");
 
-  // useEffect(() => {
   //   const scrollUp = "scroll-up";
   //   const scrollDown = "scroll-down";
   //   let lastScroll = 0;
