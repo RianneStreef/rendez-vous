@@ -38,8 +38,12 @@ const Hero = (props) => {
           <img src={snowflake} alt="" className="snowflake" />
         </div>
       </div>
-      <div className="call-button-container hidden-desktop">
-        <a className="call-button" href="tel:">
+      <div className="call-button-container ">
+        <a
+          className="call-button hidden-desktop "
+          href="tel:0033479001040"
+          hidden-desktop
+        >
           <img src={phone} className="phone-logo" /> {languageToUse.reserve}
         </a>
       </div>
