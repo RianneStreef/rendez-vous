@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 
+import Burger from "../components/Burger";
+
 import logo from "../images/icon.png";
 
 import flagEn from "../images/icon-en.png";
@@ -23,7 +25,14 @@ const Header = (props) => {
     : (languageToUse = content.french);
   return (
     <div className="header">
-      <ul className="links">
+      <div className="hidden-desktop">
+        <Burger
+          language={language}
+          setLanguage={setLanguage}
+          languageToUse={languageToUse}
+        />
+      </div>
+      <ul className="links hidden-mobile">
         <li>
           <Link to="/#intro" className="nav-link">
             {languageToUse.welcome}
