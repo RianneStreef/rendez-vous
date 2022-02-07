@@ -26,7 +26,7 @@ const Ul = styled.ul`
     color: #fff;
     padding-right: 25px;
     margin: 10px 0;
-    font-family: "Raleway";
+    font-family: "Source Sans Pro Bold";
     font-size: 20px;
     a {
       color: #fff;
