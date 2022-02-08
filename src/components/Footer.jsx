@@ -25,9 +25,10 @@ const Footer = (props) => {
       <div className="footer-items">
         <Social />
         <p className="address">
-          {" "}
-          RESTAURANT LE RENDEZ-VOUS • Rue du Soleil, 73440 Val Thorens, France •
-          Tél. :<a href="tel:0033479001040"> +33 4 79 00 10 40</a>
+          <span>
+            RESTAURANT LE RENDEZ-VOUS • Rue du Soleil, 73440 Val Thorens, France
+            • Tél: <a href="tel:0033479001040"> +33 4 79 00 10 40</a>
+          </span>
         </p>
 
         <div className="set-language-footer">

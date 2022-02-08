@@ -8,7 +8,6 @@ import phone from "../images/phone-solid.svg";
 
 const Hero = (props) => {
   let { language, languageToUse } = props;
-  // let slider = <p />;
   let [background, setBackground] = useState(true);
 
   language === "english"
@@ -37,11 +36,7 @@ const Hero = (props) => {
         </div>
       </div>
       <div className="call-button-container ">
-        <a
-          className="call-button hidden-desktop "
-          href="tel:0033479001040"
-          hidden-desktop
-        >
+        <a className="call-button hidden-desktop " href="tel:0033479001040">
           <img src={phone} className="phone-logo" /> {languageToUse.reserve}
         </a>
       </div>

@@ -47,5 +47,12 @@ module.exports = {
         component: require.resolve("./src/components/Layout.jsx"),
       },
     },
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -100,
+        duration: 500,
+      },
+    },
   ],
 };
