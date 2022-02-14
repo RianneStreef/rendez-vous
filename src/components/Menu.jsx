@@ -148,6 +148,7 @@ const Menu = (props) => {
         </div>
       );
     });
+
   const menuListFish = menu
     .filter((menuItem) => menuItem.categoryFrench === "Le Poisson")
     .map((menuItem) => {
@@ -327,7 +328,7 @@ const Menu = (props) => {
           {menuListStarters}
           <h3 className="menu-category">{languageToUse.pasta}</h3>
           {menuListPasta}
-          <h3> className="menu-category"{languageToUse.meat}</h3>
+          <h3 className="menu-category">{languageToUse.meat}</h3>
           {menuListMeat}
         </div>
         <div className="column">
