@@ -93,15 +93,16 @@ const menuPage = (props) => {
       {showDishes ? navBar : null}
       {showDishes ? (
         <>
+          <div className="menu-placeholder" />
           <h2>{category}</h2>
           <div>{menuList}</div>
         </>
       ) : (
-        <div className="category-buttons">
+        <div className="category-buttons-container">
           <Link to="/">
             <img src={logo} alt="logo" className="external-menu-logo" />
           </Link>
-          {categoryButtons}
+          <div className="category-buttons">{categoryButtons}</div>
         </div>
       )}
     </div>
