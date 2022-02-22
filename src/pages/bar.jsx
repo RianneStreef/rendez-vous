@@ -461,7 +461,7 @@ const menuPage = (props) => {
     .filter(
       (categoryItem) =>
         category === categoryItem.category &&
-        categoryItem.subCategory === "Café"
+        categoryItem.subCategory === "Cafés"
     )
     .map((menuItem) => {
       return (
