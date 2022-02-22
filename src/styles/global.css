@@ -47,7 +47,7 @@ h1 {
 h2 {
   color: var(--color-highlight);
   font-family: "Italianno", sans-serif;
-  font-size: 80px;
+  font-size: 70px;
   text-align: center;
   margin: 0;
 }
@@ -71,15 +71,15 @@ h4 {
 .banner {
   height: 40vh;
   background-image: url("../images/bar.jpg");
-  background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .banner2 {
   height: 40vh;
   background-image: url("../images/restaurant2.jpg");
-  background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .custom-button {
@@ -143,5 +143,11 @@ h4 {
     bottom: 60px;
     right: 60px;
     width: 40px;
+  }
+
+  .banner,
+  .banner2 {
+    background-attachment: fixed;
+    background-size: cover;
   }
 }
