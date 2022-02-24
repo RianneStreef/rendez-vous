@@ -24,6 +24,7 @@
   margin: 0;
   padding: 20px 0;
   font-size: 15px;
+  font-family: "Source Sans Pro Bold", sans-serif;
 }
 
 .nav {
@@ -81,7 +82,6 @@
   min-height: 30vw;
   margin: 20px;
   background-color: var(--color-background);
-  font-family: "Herr", sans-serif;
   font-size: 40px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border: 2px solid var(--color-highlight);
