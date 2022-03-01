@@ -72,20 +72,20 @@
 
 .category-buttons {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
   justify-content: space-around;
 }
 
 .category-button {
-  width: 30vw;
+  width: 80vw;
   min-height: 30vw;
   margin: 20px;
   background-color: var(--color-background);
   font-size: 40px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border: 2px solid var(--color-highlight);
-  border-radius: 10%;
+  border-radius: 20px;
   color: var(--color-highlight);
   display: flex;
   justify-content: center;
