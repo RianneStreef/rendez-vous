@@ -574,7 +574,7 @@ const menuPage = (props) => {
               {aperoList}
               <p className="bar-menu-item">Vins au Verre</p>
               {vinList}
-              <p className="bar-menu-item">La Coup de Champagne</p>
+              <p className="bar-menu-item">La Coupe de Champagne</p>
               {coupeList}
               <p className="bar-menu-item">Champagne Bouteilles</p>
               {champagneList}
