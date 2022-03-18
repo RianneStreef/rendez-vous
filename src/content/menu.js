@@ -304,9 +304,9 @@ export const menu = [
     categoryEnglish: "Meat",
     name: "Tagliata de bœuf",
     frenchDescription:
-      "Pavé de bœuf tranché, roquette, tomates cerise, parmesan avec frites",
+      "Entrecôte, roquette, tomates cerise, parmesan avec frites",
     englishDescription:
-      "Thinly-sliced beef, rocket, cherry tomatoes, parmesan with fries",
+      "Grilled rib steak, rocket, cherry tomatoes, parmesan with fries",
     price: 31,
     perPerson: false,
     eveningOnly: false,
