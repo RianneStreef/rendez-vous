@@ -18,7 +18,7 @@ export const french = {
     "Nos produits sont soigneusement sélectionnés. Midi et soir au Rendez-Vous, vous découvrirez de nombreuses saveurs grâce à notre carte diversifiée et travaillée. Notre cuisine savoyarde permet de goûter aux plats traditionnels de la région. Notre chef et pizzaïolo italien passionné de produits frais, de pâtes et de pizzas savoureuses vous fait voyager en un coup de fourchette.",
   introUnderTitle2: "Le Matin",
   introText3:
-    "Dès 8h00, le Rendez-Vous vous accueille tous les matins pour prendre votre petit-déjeuner continental. Le brunch, c'est le samedi de 8h00 à 11h30.",
+    "Dès 8h00, le Rendez-Vous vous accueille tous les matins pour prendre votre petit-déjeuner continental.",
   introUnderTitle3: "Le Soir",
   introText4:
     "Pour profiter des vos soirées à Val Thorens, Le Rendez-Vous est le bar idéal pour boire un verre. Véritable bar à cocktails au cœur de Val Thorens, nos barmans vous préparent leurs spécialités avec passion et bonne humeur sans oublier notre carte de tapas!",

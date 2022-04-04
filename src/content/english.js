@@ -17,7 +17,7 @@ export const english = {
     "Our products are carefully selected. Lunch and dinner at Le Rendez-Vous, you will discover many flavors through our diverse and worked menu. Try our Savoyard specialties to taste the traditional dishes of the region. Our chef and Italian pizzaiolo enthusiasts of fresh and delicious pasta and pizza makes you travel in a fork stroke.",
   introUnderTitle2: "The Morning",
   introText3:
-    "From 8.30 am, Le Rendez-Vous welcomes you every morning to enjoy a continental breakfast in Val Thorens. Brunch is on saturday, from 8am to 11.30am.",
+    "From 8.30 am, Le Rendez-Vous welcomes you every morning to enjoy a continental breakfast in Val Thorens.",
   introUnderTitle3: "The Evening",
   introText4:
     "To enjoy your evenings in Val Thorens, Le Rendez-Vous is the ideal bar for a drink. Real cocktail bar in the heart of Val Thorens, our bartenders prepare their specialties with passion and great atmosphere. And do not forget to have a look at our tapas menu!",
