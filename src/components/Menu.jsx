@@ -320,7 +320,15 @@ const Menu = (props) => {
     <div id="menu" className="menu">
       <div className="header-placeholder" />
       <h2>Menu</h2>
-      <div className="row">
+      <h3 className="underTitle">{languageToUse.comingSoon}</h3>
+      <div className="snowflakes">
+        <img src={snowflake} alt="" className="snowflake" />
+        <img src={snowflake} alt="" className="snowflake" />
+        <img src={snowflake} alt="" className="snowflake" />
+      </div>
+      <div className="header-placeholder" />
+
+      {/* <div className="row">
         <div className="column">
           <h3 className="menu-category">{languageToUse.sharingPlatters}</h3>
           {menuListPartager}
@@ -343,7 +351,7 @@ const Menu = (props) => {
           <h3 className="menu-category">{languageToUse.desserts}</h3>
           {menuListDesserts}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

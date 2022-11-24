@@ -23,6 +23,8 @@ export const french = {
   introText4:
     "Pour profiter des vos soirées à Val Thorens, Le Rendez-Vous est le bar idéal pour boire un verre. Véritable bar à cocktails au cœur de Val Thorens, nos barmans vous préparent leurs spécialités avec passion et bonne humeur sans oublier notre carte de tapas!",
 
+  comingSoon: "Bientôt en ligne...",
+  
   eveningOnly: "Le soir uniquement",
 
   sharingPlatters: "Nos cicchettis à partager",
@@ -38,7 +40,7 @@ export const french = {
   contact: "Contact",
   contactUnderTitle: "& Horaires",
 
-  contactText1: "Ouvert du 19 novembre au 4 mai",
+  contactText1: "Ouvert du 25 novembre 2022 au 5 mai 2023",
   contactText2: "Petit déjeuner continental,",
   contactText3: "proposé dès 8h00 le matin.",
   contactText4: "Le midi et soirs",
