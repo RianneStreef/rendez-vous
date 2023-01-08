@@ -320,7 +320,7 @@ const Menu = (props) => {
     <div id="menu" className="menu">
       <div className="header-placeholder" />
       <h2>Menu</h2>
-      <h3 className="underTitle">{languageToUse.comingSoon}</h3>
+      {/* <h3 className="underTitle">{languageToUse.comingSoon}</h3> */}
       <div className="snowflakes">
         <img src={snowflake} alt="" className="snowflake" />
         <img src={snowflake} alt="" className="snowflake" />
@@ -328,7 +328,7 @@ const Menu = (props) => {
       </div>
       <div className="header-placeholder" />
 
-      {/* <div className="row">
+      <div className="row">
         <div className="column">
           <h3 className="menu-category">{languageToUse.sharingPlatters}</h3>
           {menuListPartager}
@@ -338,20 +338,27 @@ const Menu = (props) => {
           {menuListPasta}
           <h3 className="menu-category">{languageToUse.meat}</h3>
           {menuListMeat}
+          <div className="menu-item">
+            <div className="menu-item-description">
+              <p className="item-name">{languageToUse.sauce} </p>
+            </div>
+
+            <span className="price">2.00€</span>
+          </div>
         </div>
         <div className="column">
           <h3 className="menu-category">{languageToUse.fish}</h3>
           {menuListFish}
-          <h3 className="menu-category">{languageToUse.specials}</h3>
-          {menuListSpecials}
           <h3 className="menu-category">{languageToUse.pizza}</h3>
           {menuListPizza}
           <h3 className="menu-category">{languageToUse.kids}</h3>
           {menuListKids}
-          <h3 className="menu-category">{languageToUse.desserts}</h3>
-          {menuListDesserts}
+          <h3 className="menu-category">{languageToUse.specials}</h3>
+          {menuListSpecials}
+          {/* <h3 className="menu-category">{languageToUse.desserts}</h3>
+          {menuListDesserts} */}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

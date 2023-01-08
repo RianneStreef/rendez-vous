@@ -24,13 +24,15 @@ export const french = {
     "Pour profiter des vos soirées à Val Thorens, Le Rendez-Vous est le bar idéal pour boire un verre. Véritable bar à cocktails au cœur de Val Thorens, nos barmans vous préparent leurs spécialités avec passion et bonne humeur sans oublier notre carte de tapas!",
 
   comingSoon: "Bientôt en ligne...",
-  
+
   eveningOnly: "Le soir uniquement",
 
   sharingPlatters: "Nos cicchettis à partager",
   starters: "Entrees",
   pasta: "la Pasta",
   meat: "La viande",
+  sauce: "Supplément sauce aux cèpes ou poivre",
+
   fish: "Le poisson",
   specials: "Les Specialités Savoyardes",
   pizza: "Les Pizzas",
