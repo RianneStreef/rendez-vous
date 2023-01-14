@@ -96,6 +96,15 @@ const menuPage = (props) => {
           <div className="menu-placeholder" />
           <h2>{category}</h2>
           <div>{menuList}</div>
+          {category === "La Viande" ? (
+            <div className="menu-item">
+              <div className="menu-item-description">
+                <p className="item-name">{languageToUse.sauce} </p>
+              </div>
+
+              <span className="price">4.00€</span>
+            </div>
+          ) : null}
         </>
       ) : (
         <div className="category-buttons-container">

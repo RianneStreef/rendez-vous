@@ -343,7 +343,7 @@ const Menu = (props) => {
               <p className="item-name">{languageToUse.sauce} </p>
             </div>
 
-            <span className="price">2.00€</span>
+            <span className="price">4.00€</span>
           </div>
         </div>
         <div className="column">
@@ -355,8 +355,8 @@ const Menu = (props) => {
           {menuListKids}
           <h3 className="menu-category">{languageToUse.specials}</h3>
           {menuListSpecials}
-          {/* <h3 className="menu-category">{languageToUse.desserts}</h3>
-          {menuListDesserts} */}
+          <h3 className="menu-category">{languageToUse.desserts}</h3>
+          {menuListDesserts}
         </div>
       </div>
     </div>
