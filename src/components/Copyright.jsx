@@ -9,6 +9,8 @@ import "../styles/Copyright.css";
 const Copyright = (props) => {
   let { language, languageToUse } = props;
 
+  let year = new Date().getFullYear();
+
   language === "english"
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
@@ -16,7 +18,7 @@ const Copyright = (props) => {
     <div className="copyright">
       <p>
         Copyright
-        <sup> &copy; </sup> 2023 {languageToUse.copyright}
+        <sup> &copy; </sup> {year} {languageToUse.copyright}
       </p>
       <p>
         <Link to="/legal">{languageToUse.mentionsLegal}</Link> -{" "}
