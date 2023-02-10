@@ -16,7 +16,7 @@ const Copyright = (props) => {
     <div className="copyright">
       <p>
         Copyright
-        <sup> &copy; </sup> {languageToUse.copyright}
+        <sup> &copy; </sup> 2023 {languageToUse.copyright}
       </p>
       <p>
         <Link to="/legal">{languageToUse.mentionsLegal}</Link> -{" "}
