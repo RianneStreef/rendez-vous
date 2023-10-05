@@ -9,21 +9,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-image",
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: ["G-DSNZ1G2FK1"],
-        pluginConfig: {
-          // Puts tracking script in the head instead of the body
-          head: true,
-        },
-        // defaults to false
-        enableWebVitalsTracking: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-      },
-    },
+
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-manifest",

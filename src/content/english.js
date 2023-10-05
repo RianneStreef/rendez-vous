@@ -53,6 +53,11 @@ export const english = {
 
   thankYou: "Thank you for your message!",
 
+  cookieHeader: "WE VALUE YOUR PRIVACY!",
+  cookieText: "This website uses cookies to evaluate our traffic.",
+  cookieAccept: "I accept!",
+  cookieDecline: "I decline..",
+
   socialTitle: "Follow Us!",
 
   copyright: "Le Rendez Vous. All rights reserved.",

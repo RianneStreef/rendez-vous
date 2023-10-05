@@ -134,6 +134,36 @@ h4 {
   height: 100px;
 }
 
+.cookie-text-header {
+  font-size: 30px;
+  margin: 5px;
+}
+.cookie-text {
+  margin: 5px;
+}
+
+#rcc-decline-button {
+  background-color: var(--color-background) !important;
+  color: var(--color-text-dark) !important;
+  border: 2px solid var(--color-highlight) !important;
+}
+
+#rcc-confirm-button {
+  background-color: var(--color-highlight) !important;
+  color: var(--color-background-light);
+}
+
+.CookieConsent {
+  background-color: var(--color-background-light) !important;
+  /* border-top: 2px solid var(--color-highlight); */
+  color: var(--color-text-dark) !important;
+}
+
+.CookieConsent button {
+  font-family: "Cabin" !important;
+  /* border-radius: 10px !important; */
+}
+
 @media only screen and (min-width: 768px) {
   .hidden-desktop {
     display: none;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "gatsby";
 import { Helmet } from "react-helmet";
 
@@ -16,12 +16,43 @@ import Intro from "../components/Intro";
 import Menu from "../components/Menu";
 import Contact from "../components/Contact";
 
+import ReactGA from "react-ga4";
+import CookieConsent, {
+  getCookieConsentValue,
+  Cookies,
+} from "react-cookie-consent";
+
 const IndexPage = function (props) {
   let { language, languageToUse, setLanguage } = props;
 
   language === "english"
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
+
+  const initGA = (id) => {
+    // if (process.env.NODE_ENV === "production") {
+    console.log("InitGA");
+    ReactGA.initialize(id);
+    //}
+  };
+
+  const handleAcceptCookie = () => {
+    initGA("G-DSNZ1G2FK1");
+  };
+
+  const handleDeclineCookie = () => {
+    Cookies.remove("_ga");
+    Cookies.remove("_gat");
+    Cookies.remove("_gid");
+  };
+
+  useEffect(() => {
+    const isConsent = getCookieConsentValue();
+
+    if (isConsent === "true") {
+      handleAcceptCookie();
+    }
+  }, []);
 
   return (
     <>
@@ -35,6 +66,16 @@ const IndexPage = function (props) {
       <Link to="/">
         <img src={top} className="top-link" alt="Back to top" />
       </Link>
+      <CookieConsent
+        enableDeclineButton
+        onAccept={handleAcceptCookie}
+        onDecline={handleDeclineCookie}
+        buttonText={languageToUse.cookieAccept}
+        declineButtonText={languageToUse.cookieDecline}
+      >
+        <p className="cookie-text-header">{languageToUse.cookieHeader}</p>
+        <p className="cookie-text">{languageToUse.cookieText}</p>
+      </CookieConsent>
       <Header
         language={language}
         setLanguage={setLanguage}
