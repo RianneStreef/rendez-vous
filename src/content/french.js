@@ -56,7 +56,7 @@ export const french = {
   thankYou: "Merci pour votre message! ",
 
   cookieHeader: "Nous utilisons des cookies",
-  cookieText: "Ce site web utilise des cookies pour évaluer notre trafic.",
+  cookieText: "Ce site web utilise des cookies pour analyser notre trafic.",
   cookieAccept: "J'accepte !",
   cookieDecline: "Je refuse..",
 
