@@ -23,10 +23,12 @@
 .hero h2 {
   font-size: 80px;
   margin-top: 120px;
+  text-shadow: #000 1px 0 20px;
 }
 
 h1 {
   font-size: 30px;
+  text-shadow: #000 1px 0 20px;
 }
 
 .snowflakes {
