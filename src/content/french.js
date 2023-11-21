@@ -42,7 +42,7 @@ export const french = {
   contact: "Contact",
   contactUnderTitle: "& Horaires",
 
-  contactText1: "Ouvert du 25 novembre 2022 au 5 mai 2023",
+  contactText1: "Ouvert du 24 novembre 2023 au 4 mai 2024",
   contactText2: "Petit déjeuner continental,",
   contactText3: "proposé dès 8h00 le matin.",
   contactText4: "Le midi et soirs",

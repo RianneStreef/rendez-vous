@@ -40,7 +40,7 @@ export const english = {
   contact: "Contact",
   contactUnderTitle: "& Opening Hours",
 
-  contactText1: "Open from the 25th of november 2022 till the 5th of mai 2023",
+  contactText1: "Open from the 24th of november 2023 till the 4th of mai 2024",
   contactText2: "Continental breakfast,",
   contactText3: "served from 8am every morning.",
   contactText4: "Lunch and dinner",
