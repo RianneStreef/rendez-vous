@@ -26,6 +26,16 @@ export const english = {
 
   eveningOnly: "Evenings only",
 
+  signatureDishes: "Signature Dishes",
+
+  menuMidi: "Lunch Menu",
+  menuSoir: "Dinner Menu",
+
+  redirectText:
+    "Would you like to consult our lunch menu, or would you like to go to our website? ",
+
+  website: "Website",
+
   sharingPlatters: "Nos cicchettis à partager",
   starters: "Starters",
   pasta: "la Pasta",

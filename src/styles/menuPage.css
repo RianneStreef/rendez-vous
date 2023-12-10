@@ -128,3 +128,17 @@
   text-decoration: underline;
   font-size: 20px;
 }
+
+@media only screen and (min-width: 768px) {
+  .category-button {
+    width: 20vw;
+    min-height: 10vw;
+  }
+
+  .category-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

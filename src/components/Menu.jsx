@@ -319,7 +319,7 @@ const Menu = (props) => {
   return (
     <div id="menu" className="menu">
       <div className="header-placeholder" />
-      <h2>Menu</h2>
+      <h2>{languageToUse.signatureDishes}</h2>
       {/* <h3 className="underTitle">{languageToUse.comingSoon}</h3> */}
       <div className="snowflakes">
         <img src={snowflake} alt="" className="snowflake" />
@@ -327,7 +327,7 @@ const Menu = (props) => {
         <img src={snowflake} alt="" className="snowflake" />
       </div>
       <div className="header-placeholder" />
-
+      {/* 
       <div className="row">
         <div className="column">
           <h3 className="menu-category">{languageToUse.sharingPlatters}</h3>
@@ -358,6 +358,84 @@ const Menu = (props) => {
           <h3 className="menu-category">{languageToUse.desserts}</h3>
           {menuListDesserts}
         </div>
+      </div> */}
+      <div className="row">
+        <div className="column">
+          <div className="menu-item">
+            <div className="menu-item-description">
+              <p className="item-name">
+                Gnocchi di patate crema du parmigiano et tartufo - faits maison
+              </p>
+              <p>Crème de parmesan et truffes</p>
+              <p>
+                <i>Parmigiano cream and truffle</i>
+              </p>
+            </div>
+
+            <span className="price">37,00€</span>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-description">
+              <p className="item-name">Tartare italien aux artichauts </p>
+              <p>
+                Pesto, câpres, tomates confites, crème de balsamique, artichauts
+                confits avec frites
+              </p>
+              <p>
+                <i>
+                  Beef Tartar, pesto, capers, tomato confit, balsamic cream, and
+                  preserved artichokes and fries
+                </i>
+              </p>
+            </div>
+
+            <span className="price">33,00€</span>
+          </div>
+        </div>
+        <div className="column">
+          <div className="menu-item">
+            <div className="menu-item-description">
+              <p className="item-name">Paccheri gorgonzola e pera </p>
+              <p>Crème de gorgonzola, poire et noix</p>
+              <p>
+                <i>Gorgonzola cream, pear, walnuts</i>
+              </p>
+            </div>
+
+            <span className="price">31,00€</span>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-description">
+              <p className="item-name">Encornet farci aux fruits de mer </p>
+              <p>
+                <i>Stuffed quid with seafood</i>
+              </p>
+            </div>
+
+            <span className="price">35,00€</span>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-description">
+              <p className="item-name">PIzza Tartufo </p>
+              <p>
+                Crème, truffe,mozzarella,burrata, roquette, copeaux parmesan
+              </p>
+              <p>
+                <i>Cream, truffle, mozzarella, rocket, parmigiano shavings</i>
+              </p>
+            </div>
+
+            <span className="price">38,00€</span>
+          </div>
+        </div>
+      </div>
+      <div className="menu-links">
+        <Link className="link-button menu-link-button" to="/menu">
+          {languageToUse.menuMidi}
+        </Link>
+        <Link className="link-button menu-link-button" to="/menu-soir">
+          {languageToUse.menuSoir}
+        </Link>
       </div>
     </div>
   );

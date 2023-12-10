@@ -12,6 +12,7 @@ import top from "../images/top.png";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import Redirect from "../components/Redirect";
 import Intro from "../components/Intro";
 import Menu from "../components/Menu";
 import Contact from "../components/Contact";
@@ -76,6 +77,11 @@ const IndexPage = function (props) {
         <p className="cookie-text-header">{languageToUse.cookieHeader}</p>
         <p className="cookie-text">{languageToUse.cookieText}</p>
       </CookieConsent>
+      <Redirect
+        language={language}
+        setLanguage={setLanguage}
+        languageToUse={languageToUse}
+      />
       <Header
         language={language}
         setLanguage={setLanguage}

@@ -27,6 +27,15 @@ export const french = {
 
   eveningOnly: "Le soir uniquement",
 
+  signatureDishes: "Nos Plats Phares",
+
+  menuMidi: "Menu Midi",
+  menuSoir: "Menu Soir",
+
+  redirectText:
+    " Vous souhaitez consulter notre carte du midi, ou vous souhaitez vous rendre sur notre site internet ? ",
+  website: "Site",
+
   sharingPlatters: "Nos cicchettis à partager",
   starters: "Entrees",
   pasta: "la Pasta",
