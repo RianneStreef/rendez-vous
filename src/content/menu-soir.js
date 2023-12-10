@@ -92,7 +92,7 @@ export const menu = [
     categoryFrench: "Entrées",
     categoryEnglish: "Starters",
     name: "Velouté de courge et sa burrata",
-    englishDescription: "Pumpking velouté and its burrata",
+    englishDescription: "Pumpkin velouté and its burrata",
     price: 24,
     perPerson: false,
     eveningOnly: false,
@@ -128,7 +128,7 @@ export const menu = [
     frenchDescription:
       "Tomates cerise, roquette, mozzarella, légumes marinés, pignons de pin, pesto",
     englishDescription:
-      "Cherry tomato, rocket, mozzarella, marinated vegetables, pine nuts, pesto",
+      "Cherry tomatoes, rocket, mozzarella, marinated vegetables, pine nuts, pesto",
     price: 26,
     perPerson: false,
     eveningOnly: false,

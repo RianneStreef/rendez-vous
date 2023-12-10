@@ -82,7 +82,7 @@ export const menu = [
     frenchDescription:
       "Tomates cerise, roquette, burrata, légumes marinés, pignons de pin, pesto",
     englishDescription:
-      "Cherry tomato, rocket, mozzarella, marinated vegetables, pine nuts, pesto",
+      "Cherry tomatoes, rocket, mozzarella, marinated vegetables, pine nuts, pesto",
     price: 26,
     perPerson: false,
     eveningOnly: false,
