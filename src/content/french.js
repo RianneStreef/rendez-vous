@@ -13,7 +13,7 @@ export const french = {
   introText:
     "A Val Thorens au pied des pistes, le restaurant le Rendez-Vous vous ouvre ses portes à tout moment de la journée. Sur le front de neige, dans un cadre chaleureux, Le Rendez-Vous est le lieu incontournable pour votre moment détente et plaisir gastronomique. Le matin pour déguster un petit déjeuner, le midi et le soir pour découvrir nos spécialités italiennes et savoyardes et le soir pour manger et boire un verre dans l’espace bar.",
 
-  introUnderTitle: "Cuisine Italien & Traditionnelle",
+  introUnderTitle: "Cuisine Italienne & Traditionnelle",
   introText2:
     "Nos produits sont soigneusement sélectionnés. Midi et soir au Rendez-Vous, vous découvrirez de nombreuses saveurs grâce à notre carte diversifiée et travaillée. Notre cuisine savoyarde permet de goûter aux plats traditionnels de la région. Notre chef et pizzaïolo italien passionné de produits frais, de pâtes et de pizzas savoureuses vous fait voyager en un coup de fourchette.",
   introUnderTitle2: "Le Matin",
