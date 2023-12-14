@@ -185,10 +185,11 @@ export const menu = [
     index: 15,
     categoryFrench: "La Viande",
     categoryEnglish: "Meat",
+    name: "Burger Savoyard (disponible en végétarienne - also available in vegetarian) ",
     frenchDescription:
-      "Raclette, steak haché, bacon, tomate, salade, oignons + frites - aussi disponible en version végétarienne",
+      "Raclette, steak haché, bacon, tomate, salade, oignons + frites",
     englishDescription:
-      "Raclette, minced beef, bacon, tomato, salad, onions + fries - also available in vegetarian version",
+      "Raclette, minced beef, bacon, tomato, salad, onions + fries",
     price: 29,
     perPerson: false,
     eveningOnly: false,
