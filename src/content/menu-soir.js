@@ -414,7 +414,7 @@ export const menu = [
     categoryFrench: "Les Pizzas",
     name: "Bronte",
     frenchDescription: "Mozzarella, Mortadelle, crème de pistache, pistache",
-    englishDescription: "Ricotta, lemon zest, bresaola",
+    englishDescription: "Mozzarella, Mortadella, pistachio cream",
     price: 22,
     perPerson: false,
     eveningOnly: false,
