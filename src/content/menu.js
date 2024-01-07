@@ -294,7 +294,7 @@ export const menu = [
     name: "Bronte",
     frenchDescription: "Mozzarella, Mortadelle, crème de pistache, pistache",
     englishDescription: "Mozzarella, Mortadella, pistachio cream",
-    price: 22,
+    price: 25,
     perPerson: false,
     eveningOnly: false,
   },
