@@ -8,7 +8,7 @@ import snowflake from "../images/snowflake.png";
 
 import "../styles/Menu.css";
 
-// commented out evening menu, and set lunch menu to temporary menu (which is in evening menu) also dishes on main page
+// commented out evening menu, and set lunch menu to temporary menu (which is in evening menu - link here and on menu page) also dishes on main page
 
 const Menu = (props) => {
   let { language, languageToUse } = props;
