@@ -36,7 +36,7 @@ export const menu = [
       "Aubergine nibbles flavoured with garlic and basil and its tomato sauce",
     price: 16,
     perPerson: false,
-    eveningOnly: true,
+    eveningOnly: false,
   },
   // {
   //   index: 3,
@@ -100,7 +100,7 @@ export const menu = [
     englishDescription: "Fried pasta stuffed with bechamel sauce, peas and ham",
     price: 16,
     perPerson: false,
-    eveningOnly: true,
+    eveningOnly: false,
   },
   {
     index: 4,
@@ -111,7 +111,7 @@ export const menu = [
     englishDescription: "Braid of pizza, goat’s cheese, honey, walnuts",
     price: 21,
     perPerson: false,
-    eveningOnly: true,
+    eveningOnly: false,
   },
 
   // {
