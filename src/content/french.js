@@ -29,7 +29,7 @@ export const french = {
 
   signatureDishes: "Nos Plats Phares",
 
-  menuMidi: "Menu Midi",
+  menuMidi: "Menu début de saison",
   menuSoir: "Menu Soir",
 
   redirectText:
@@ -51,7 +51,7 @@ export const french = {
   contact: "Contact",
   contactUnderTitle: "& Horaires",
 
-  contactText1: "Ouvert du 24 novembre 2023 au 4 mai 2024",
+  contactText1: "Ouvert du 22 novembre 2024 au 3 mai 2025",
   contactText2: "Petit déjeuner continental,",
   contactText3: "proposé dès 8h00 le matin.",
   contactText4: "Le midi et soirs",

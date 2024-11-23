@@ -1,12 +1,14 @@
 import React from "react";
 import { Link } from "gatsby";
-import { menu } from "../content/menu";
+import { menu } from "../content/menu-soir";
 
 import { content } from "../content/languages";
 
 import snowflake from "../images/snowflake.png";
 
 import "../styles/Menu.css";
+
+// commented out evening menu, and set lunch menu to temporary menu (which is in evening menu) also dishes on main page
 
 const Menu = (props) => {
   let { language, languageToUse } = props;
@@ -361,7 +363,7 @@ const Menu = (props) => {
       </div> */}
       <div className="row">
         <div className="column">
-          <div className="menu-item">
+          {/* <div className="menu-item">
             <div className="menu-item-description">
               <p className="item-name">
                 Gnocchi di patate crema du parmigiano et tartufo - faits maison
@@ -373,23 +375,41 @@ const Menu = (props) => {
             </div>
 
             <span className="price">37,00€</span>
-          </div>
+          </div> */}
           <div className="menu-item">
             <div className="menu-item-description">
-              <p className="item-name">Tartare italien aux artichauts </p>
+              <p className="item-name">PIzza Tartufo </p>
               <p>
-                Pesto, câpres, tomates confites, crème de balsamique, artichauts
-                confits avec frites
+                Crème, truffe,mozzarella,burrata, roquette, copeaux parmesan
               </p>
               <p>
-                <i>
-                  Beef Tartar, pesto, capers, tomato confit, balsamic cream, and
-                  preserved artichokes and fries
-                </i>
+                <i>Cream, truffle, mozzarella, rocket, parmigiano shavings</i>
               </p>
             </div>
 
-            <span className="price">33,00€</span>
+            <span className="price">38,00€</span>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-description">
+              <p className="item-name">Linguini alle vongole </p>
+              <p>Linguine aux palourdes</p>
+              <p>
+                <i>Linguine with clams</i>
+              </p>
+            </div>
+
+            <span className="price">32,00€</span>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-description">
+              <p className="item-name">Aubergines à la parmigiana</p>
+              <p>Gratin de tomates, aubergines, mozzarella</p>
+              <p>
+                <i>Gratin of tomato, aubergines and mozzarella</i>
+              </p>
+            </div>
+
+            <span className="price">28,00€</span>
           </div>
         </div>
         <div className="column">
@@ -404,7 +424,7 @@ const Menu = (props) => {
 
             <span className="price">31,00€</span>
           </div>
-          <div className="menu-item">
+          {/* <div className="menu-item">
             <div className="menu-item-description">
               <p className="item-name">Encornet farci aux fruits de mer </p>
               <p>
@@ -413,8 +433,8 @@ const Menu = (props) => {
             </div>
 
             <span className="price">35,00€</span>
-          </div>
-          <div className="menu-item">
+          </div> */}
+          {/* <div className="menu-item">
             <div className="menu-item-description">
               <p className="item-name">PIzza Tartufo </p>
               <p>
@@ -426,16 +446,16 @@ const Menu = (props) => {
             </div>
 
             <span className="price">38,00€</span>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="menu-links">
         <Link className="link-button menu-link-button" to="/menu">
           {languageToUse.menuMidi}
         </Link>
-        <Link className="link-button menu-link-button" to="/menu-soir">
+        {/* <Link className="link-button menu-link-button" to="/menu-soir">
           {languageToUse.menuSoir}
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

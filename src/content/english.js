@@ -28,7 +28,7 @@ export const english = {
 
   signatureDishes: "Signature Dishes",
 
-  menuMidi: "Lunch Menu",
+  menuMidi: "Start of season menu",
   menuSoir: "Dinner Menu",
 
   redirectText:
@@ -50,7 +50,7 @@ export const english = {
   contact: "Contact",
   contactUnderTitle: "& Opening Hours",
 
-  contactText1: "Open from the 24th of november 2023 till the 4th of mai 2024",
+  contactText1: "Open from the 22th of november 2024 till the 3th of mai 2025",
   contactText2: "Continental breakfast,",
   contactText3: "served from 8am every morning.",
   contactText4: "Lunch and dinner",
