@@ -378,6 +378,34 @@ const Menu = (props) => {
           </div> */}
           <div className="menu-item">
             <div className="menu-item-description">
+              <p className="item-name">Aubergines à la parmigiana</p>
+              <p>Gratin de tomates, aubergines, mozzarella</p>
+              <p>
+                <i>Gratin of tomato, aubergines and mozzarella</i>
+              </p>
+            </div>
+
+            <span className="price">28,00€</span>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-description">
+              <p className="item-name">Tartare italien aux artichauts</p>
+              <p>
+                Pesto, câpres, tomates confites, crème de balsamique, artichauts
+                confits avec frites
+              </p>
+              <p>
+                <i>
+                  Beef Tartar, pesto, capers, tomato confit, balsamic cream, and
+                  preserved artichokes and fries
+                </i>
+              </p>
+            </div>
+
+            <span className="price">35,00€</span>
+          </div>
+          {/* <div className="menu-item">
+            <div className="menu-item-description">
               <p className="item-name">PIzza Tartufo </p>
               <p>
                 Crème, truffe,mozzarella,burrata, roquette, copeaux parmesan
@@ -388,7 +416,7 @@ const Menu = (props) => {
             </div>
 
             <span className="price">38,00€</span>
-          </div>
+          </div> */}
           <div className="menu-item">
             <div className="menu-item-description">
               <p className="item-name">Linguini alle vongole </p>
@@ -399,17 +427,6 @@ const Menu = (props) => {
             </div>
 
             <span className="price">32,00€</span>
-          </div>
-          <div className="menu-item">
-            <div className="menu-item-description">
-              <p className="item-name">Aubergines à la parmigiana</p>
-              <p>Gratin de tomates, aubergines, mozzarella</p>
-              <p>
-                <i>Gratin of tomato, aubergines and mozzarella</i>
-              </p>
-            </div>
-
-            <span className="price">28,00€</span>
           </div>
         </div>
         <div className="column">
@@ -436,7 +453,7 @@ const Menu = (props) => {
           </div> */}
           {/* <div className="menu-item">
             <div className="menu-item-description">
-              <p className="item-name">PIzza Tartufo </p>
+              <p className="item-name">Pizza Tartufo </p>
               <p>
                 Crème, truffe,mozzarella,burrata, roquette, copeaux parmesan
               </p>
