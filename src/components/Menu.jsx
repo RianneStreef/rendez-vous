@@ -417,17 +417,6 @@ const Menu = (props) => {
 
             <span className="price">38,00€</span>
           </div> */}
-          <div className="menu-item">
-            <div className="menu-item-description">
-              <p className="item-name">Linguini alle vongole </p>
-              <p>Linguine aux palourdes</p>
-              <p>
-                <i>Linguine with clams</i>
-              </p>
-            </div>
-
-            <span className="price">32,00€</span>
-          </div>
         </div>
         <div className="column">
           <div className="menu-item">
@@ -440,6 +429,17 @@ const Menu = (props) => {
             </div>
 
             <span className="price">31,00€</span>
+          </div>
+          <div className="menu-item">
+            <div className="menu-item-description">
+              <p className="item-name">Linguini alle vongole </p>
+              <p>Linguine aux palourdes</p>
+              <p>
+                <i>Linguine with clams</i>
+              </p>
+            </div>
+
+            <span className="price">32,00€</span>
           </div>
           {/* <div className="menu-item">
             <div className="menu-item-description">
