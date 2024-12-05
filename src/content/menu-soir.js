@@ -3,7 +3,7 @@ export const menuCategories = [
   "Entrées",
   "La Pasta",
   "La Viande",
-  // "Le Poisson",
+  "Le Poisson",
   "Les Specialités Savoyardes",
   "Les Pizzas",
   "Menu enfant",

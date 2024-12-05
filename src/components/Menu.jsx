@@ -428,9 +428,9 @@ const Menu = (props) => {
               </p>
             </div>
 
-            <span className="price">31,00€</span>
+            <span className="price">32,00€</span>
           </div>
-          <div className="menu-item">
+          {/* <div className="menu-item">
             <div className="menu-item-description">
               <p className="item-name">Linguini alle vongole </p>
               <p>Linguine aux palourdes</p>
@@ -440,7 +440,7 @@ const Menu = (props) => {
             </div>
 
             <span className="price">32,00€</span>
-          </div>
+          </div> */}
           {/* <div className="menu-item">
             <div className="menu-item-description">
               <p className="item-name">Encornet farci aux fruits de mer </p>
@@ -451,7 +451,7 @@ const Menu = (props) => {
 
             <span className="price">35,00€</span>
           </div> */}
-          {/* <div className="menu-item">
+          <div className="menu-item">
             <div className="menu-item-description">
               <p className="item-name">Pizza Tartufo </p>
               <p>
@@ -463,16 +463,16 @@ const Menu = (props) => {
             </div>
 
             <span className="price">38,00€</span>
-          </div> */}
+          </div>
         </div>
       </div>
       <div className="menu-links">
         <Link className="link-button menu-link-button" to="/menu">
           {languageToUse.menuMidi}
         </Link>
-        {/* <Link className="link-button menu-link-button" to="/menu-soir">
+        <Link className="link-button menu-link-button" to="/menu-soir">
           {languageToUse.menuSoir}
-        </Link> */}
+        </Link>
       </div>
     </div>
   );

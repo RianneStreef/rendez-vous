@@ -29,7 +29,7 @@ export const french = {
 
   signatureDishes: "Nos Plats Phares",
 
-  menuMidi: "Menu début de saison",
+  menuMidi: "Menu Midi",
   menuSoir: "Menu Soir",
 
   redirectText:

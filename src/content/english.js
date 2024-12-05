@@ -28,7 +28,7 @@ export const english = {
 
   signatureDishes: "Signature Dishes",
 
-  menuMidi: "Start of season menu",
+  menuMidi: "Lunch Menu",
   menuSoir: "Dinner Menu",
 
   redirectText:

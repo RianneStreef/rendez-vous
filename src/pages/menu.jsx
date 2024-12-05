@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 
 import { content } from "../content/languages";
 import intakeInfo from "../content/intake";
-import { menu } from "../content/menu-soir";
+import { menu } from "../content/menu";
 import { menuCategories } from "../content/menu";
 
 import logo from "../images/icon.png";
