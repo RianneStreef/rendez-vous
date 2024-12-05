@@ -23,7 +23,7 @@ export const menu = [
       "Assortment of cured meat and Italian cheeses served with focaccia bread",
     price: 35,
     perPerson: false,
-    eveningOnly: true,
+    eveningOnly: false,
   },
   {
     index: 2,
@@ -38,63 +38,12 @@ export const menu = [
     perPerson: false,
     eveningOnly: false,
   },
-  // {
-  //   index: 3,
-  //   categoryFrench: "Nos Cicchettis à Partager",
-  //   categoryEnglish: "Sharing Platters",
-  //   name: "Arancini x5",
-  //   frenchDescription:
-  //     "Boulettes de riz safranées fourrées à la scamorza, petits pois, viande",
-  //   englishDescription:
-  //     "Deep fried saffron rice balls stuffed with scarmorza, peas and meat",
-  //   price: 15,
-  //   perPerson: false,
-  //   eveningOnly: false,
-  // },
-
-  // {
-  //   index: 4,
-  //   categoryFrench: "Nos Cicchettis à Partager",
-  //   categoryEnglish: "Sharing Platters",
-  //   name: "Roulés de pizza au jambon",
-  //   frenchDescription: "Jambon, burratina, champignons, roquette",
-  //   englishDescription: "Ham, burrattina, mushrooms, rocket",
-  //   price: 16,
-  //   perPerson: false,
-  //   eveningOnly: false,
-  // },
-
-  // {
-  //   index: 4,
-  //   categoryFrench: "Nos Cicchettis à Partager",
-  //   categoryEnglish: "Sharing Platters",
-  //   name: "Roulés de pizza au jambon",
-  //   frenchDescription: "Jambon, burratina, champignons, roquette",
-  //   englishDescription: "Ham, burrattina, mushrooms, rocket",
-  //   price: 17,
-  //   perPerson: false,
-  //   eveningOnly: false,
-  // },
-
-  // {
-  //   index: 5,
-  //   categoryFrench: "Nos Cicchettis à Partager",
-  //   categoryEnglish: "Sharing Platters",
-  //   name: "Tartufo",
-  //   frenchDescription:
-  //     "Crème, truffe,mozzarella,burrata, roquette, copeaux parmesan",
-  //   englishDescription:
-  //     "Cream, truffle, mozzarella, rocket, parmigiano shavings",
-  //   price: 38,
-  //   perPerson: false,
-  //   eveningOnly: false,
-  // },
 
   {
     index: 3,
     categoryFrench: "Nos Cicchettis à Partager",
     categoryEnglish: "Sharing Platters",
-    name: "Frittatine di pasta x 6",
+    name: "Frittatine di pasta x 3	",
     frenchDescription:
       "Croquettes de pâtes fourrées à la béchamel, petits pois et jambon blanc",
     englishDescription: "Fried pasta stuffed with bechamel sauce, peas and ham",
@@ -102,11 +51,12 @@ export const menu = [
     perPerson: false,
     eveningOnly: false,
   },
+
   {
     index: 4,
     categoryFrench: "Nos Cicchettis à Partager",
     categoryEnglish: "Sharing Platters",
-    name: "Treccia",
+    name: "La Treccia ",
     frenchDescription: "Tresse de pizza chèvre, miel, noix",
     englishDescription: "Braid of pizza, goat’s cheese, honey, walnuts",
     price: 21,
@@ -114,30 +64,83 @@ export const menu = [
     eveningOnly: false,
   },
 
-  // {
-  //   index: 6,
-  //   categoryFrench: "Entrées",
-  //   categoryEnglish: "Starters",
-  //   name: "Velouté de courge et sa burrata",
-  //   englishDescription: "Pumpkin velouté and its burrata",
-  //   price: 24,
-  //   perPerson: false,
-  //   eveningOnly: false,
-  // },
   {
     index: 5,
-    categoryFrench: "Entrées",
-    categoryEnglish: "Starters",
-    name: "La burrata",
-    frenchDescription: "Burrata, tomates cerises",
-    englishDescription: "Burrata, cherry tomato",
-    price: 27,
+    categoryFrench: "Nos Cicchettis à Partager",
+    categoryEnglish: "Sharing Platters",
+    name: "Roulés de pizza au jambon",
+    frenchDescription: "Jambon, burratina, champignons, roquette",
+    englishDescription: "Ham, burrattina, mushrooms, rocket",
+    price: 19,
     perPerson: false,
     eveningOnly: false,
   },
 
   {
     index: 6,
+    categoryFrench: "Nos Cicchettis à Partager",
+    categoryEnglish: "Sharing Platters",
+    name: "Tartufo",
+    frenchDescription:
+      "Crème, truffe,mozzarella,burrata, roquette, copeaux parmesan",
+    englishDescription:
+      "Cream, truffle, mozzarella, rocket, parmigiano shavings",
+    price: 38,
+    perPerson: false,
+    eveningOnly: false,
+  },
+
+  // {
+  //   index: 3,
+  //   categoryFrench: "Nos Cicchettis à Partager",
+  //   categoryEnglish: "Sharing Platters",
+  //   name: "Frittatine di pasta x 6",
+  //   frenchDescription:
+  //     "Croquettes de pâtes fourrées à la béchamel, petits pois et jambon blanc",
+  //   englishDescription: "Fried pasta stuffed with bechamel sauce, peas and ham",
+  //   price: 16,
+  //   perPerson: false,
+  //   eveningOnly: false,
+  // },
+  // {
+  //   index: 4,
+  //   categoryFrench: "Nos Cicchettis à Partager",
+  //   categoryEnglish: "Sharing Platters",
+  //   name: "Treccia",
+  //   englishDescription: "Braid of pizza, goat’s cheese, honey, walnuts",
+  //   price: 21,
+  //   perPerson: false,
+  //   eveningOnly: false,
+  // },
+
+  {
+    index: 7,
+    categoryFrench: "Entrées",
+    categoryEnglish: "Starters",
+    name: "Velouté de champignons",
+    frenchDescription:
+      "Girolles, pleurotes, pieds de mouton, champignons de Paris",
+    englishDescription:
+      "Assorted mushrooms velouté (girolle, oyster mushrooms, sheepsfoot, cremini)",
+    price: 26,
+    perPerson: false,
+    eveningOnly: false,
+  },
+  {
+    index: 8,
+    categoryFrench: "Entrées",
+    categoryEnglish: "Starters",
+    name: "La burrata",
+    frenchDescription: "Burrata, crème de Parmesan",
+
+    englishDescription: "Burrata, Parmigano cream",
+    price: 27,
+    perPerson: false,
+    eveningOnly: false,
+  },
+
+  {
+    index: 9,
     categoryFrench: "Entrées",
     categoryEnglish: "Starters",
     name: "Carpaccio de boeuf	",
@@ -148,7 +151,7 @@ export const menu = [
   },
 
   {
-    index: 7,
+    index: 10,
     categoryFrench: "Entrées",
     categoryEnglish: "Starters",
     name: "Salade italienne",
@@ -161,10 +164,10 @@ export const menu = [
     eveningOnly: false,
   },
   {
-    index: 8,
+    index: 11,
     categoryFrench: "Entrées",
     categoryEnglish: "Starters",
-    name: "Salade de poulet",
+    name: "Salade de poulet della casa ",
     frenchDescription:
       "Salade verte, poulet pané, parmesan, tomates cerise, oignons, croûtons",
     englishDescription:
@@ -188,10 +191,10 @@ export const menu = [
     index: 9,
     categoryFrench: "Entrées",
     categoryEnglish: "Starters",
-    name: "Aubergines à la parmigiana",
-    frenchDescription: "Gratin de tomates, aubergines, mozzarella",
-    englishDescription: "Gratin of tomato, aubergines and mozzarella",
-    price: 28,
+    name: "Carpaccio de poulpe",
+    // frenchDescription: "Gratin de tomates, aubergines, mozzarella",
+    englishDescription: "Octopus carpaccio",
+    price: 27,
     perPerson: false,
     eveningOnly: false,
   },
@@ -200,16 +203,28 @@ export const menu = [
     index: 10,
     categoryFrench: "La Pasta",
     categoryEnglish: "La Pasta",
-    name: "Penne alla bolognese",
-    // frenchDescription: "Crème, jambon cuit, petits pois, champignons",
-    englishDescription: "Penne alla bolognese		",
-    price: 24,
+    name: "Gnocchi al tartufo - faits maison / home made",
+    frenchDescription: "Crème de choux fleur et truffe",
+    englishDescription: "Califlower cream and truffle",
+    price: 37,
     perPerson: false,
     eveningOnly: false,
   },
 
   {
     index: 11,
+    categoryFrench: "La Pasta",
+    categoryEnglish: "La Pasta",
+    name: "Paccheri ai gamberi e burrata	",
+    frenchDescription: "Gambas, crevettes, crème de burrata, tomates cerise",
+    englishDescription: "Gambas, prawns, burrata cream, cherry tomato",
+    price: 35,
+    perPerson: false,
+    eveningOnly: false,
+  },
+
+  {
+    index: 12,
     categoryFrench: "La Pasta",
     categoryEnglish: "La Pasta",
     name: "Spaghetti alla carbonara vea",
@@ -220,17 +235,17 @@ export const menu = [
     eveningOnly: false,
   },
 
-  {
-    index: 12,
-    categoryFrench: "La Pasta",
-    categoryEnglish: "La Pasta",
-    name: "Linguini alle vongole",
-    frenchDescription: "Linguine aux palourdes",
-    englishDescription: "Linguine with clams",
-    price: 32,
-    perPerson: false,
-    eveningOnly: false,
-  },
+  // {
+  //   index: 12,
+  //   categoryFrench: "La Pasta",
+  //   categoryEnglish: "La Pasta",
+  //   name: "Linguini alle vongole",
+  //   frenchDescription: "Linguine aux palourdes",
+  //   englishDescription: "Linguine with clams",
+  //   price: 32,
+  //   perPerson: false,
+  //   eveningOnly: false,
+  // },
   {
     index: 13,
     categoryFrench: "La Pasta",
@@ -278,7 +293,19 @@ export const menu = [
   },
 
   {
-    index: 18,
+    index: 15,
+    categoryFrench: "La Pasta",
+    categoryEnglish: "La Pasta",
+    name: "Le raviolo aux 3 fromages",
+    // frenchDescription: "Risotto aux champignons",
+    englishDescription: "The 3 cheeses raviolo",
+    price: 34,
+    perPerson: false,
+    eveningOnly: false,
+  },
+
+  {
+    index: 16,
     categoryFrench: "La Viande",
     categoryEnglish: "Meat",
     name: "Filet de bœuf",
@@ -289,10 +316,10 @@ export const menu = [
   },
 
   {
-    index: 19,
+    index: 17,
     categoryFrench: "La Viande",
     categoryEnglish: "Meat",
-    name: "Burger Savoyard",
+    name: "Burger Savoyard (version végétarienne / vergetarian version)",
     frenchDescription:
       "Raclette, steak haché, bacon, tomate, salade, oignons + frites",
     englishDescription:
@@ -328,51 +355,51 @@ export const menu = [
     perPerson: false,
     eveningOnly: false,
   },
-  // {
-  //   index: 22,
-  //   categoryFrench: "La Viande",
-  //   categoryEnglish: "Meat",
-  //   name: "Magret de canard",
-  //   frenchDescription: "Sauce au miel",
-  //   englishDescription: "Duck fillet and its honey sauce",
-  //   price: 39,
-  //   perPerson: false,
-  //   eveningOnly: false,
-  // },
+  {
+    index: 22,
+    categoryFrench: "La Viande",
+    categoryEnglish: "Meat",
+    name: "Magret de canard aux abricots",
+    // frenchDescription: "Sauce au miel",
+    englishDescription: "Duck fillet and its apricot sauce",
+    price: 39,
+    perPerson: false,
+    eveningOnly: false,
+  },
 
-  // {
-  //   index: 24,
-  //   categoryFrench: "La Viande",
-  //   categoryEnglish: "Meat",
-  //   name: "Côte de boeuf « simmental »",
-  //   frenchDescription: "15 mn d’attente - (pour 2 pers)	",
-  //   englishDescription: "Rib of beef - 15 mn of cooking time",
-  //   price: 92,
-  //   perPerson: false,
-  //   eveningOnly: false,
-  // },
+  {
+    index: 23,
+    categoryFrench: "La Viande",
+    categoryEnglish: "Meat",
+    name: "Côte de boeuf « simmental »",
+    frenchDescription: "15 mn d’attente - (pour 2 pers)	",
+    englishDescription: "Rib of beef - 15 mn of cooking time",
+    price: 92,
+    perPerson: false,
+    eveningOnly: false,
+  },
 
-  // {
-  //   index: 24,
-  //   categoryFrench: "Le Poisson",
-  //   categoryEnglish: "Fish",
-  //   name: "Cassolette de moules",
-  //   frenchDescription: "Moules à la crème, frites",
-  //   englishDescription: "Mussels with crème, fries",
-  //   price: 27,
-  //   perPerson: false,
-  //   eveningOnly: false,
-  // },
-  // {
-  //   index: 25,
-  //   categoryFrench: "Le Poisson",
-  //   categoryEnglish: "Fish",
-  //   name: "Encornet farci aux fruits de mer",
-  //   englishDescription: "Stuffed quid with seafood",
-  //   price: 35,
-  //   perPerson: false,
-  //   eveningOnly: false,
-  // },
+  {
+    index: 24,
+    categoryFrench: "Le Poisson",
+    categoryEnglish: "Fish",
+    name: "Cassolette de moules",
+    frenchDescription: "Moules à la crème, frites",
+    englishDescription: "Mussels with crème, fries",
+    price: 27,
+    perPerson: false,
+    eveningOnly: false,
+  },
+  {
+    index: 25,
+    categoryFrench: "Le Poisson",
+    categoryEnglish: "Fish",
+    name: "Filer de bar et ses légumes",
+    englishDescription: "Seabass fillet and its vegetables",
+    price: 35,
+    perPerson: false,
+    eveningOnly: false,
+  },
 
   {
     index: 26,
@@ -410,26 +437,24 @@ export const menu = [
     index: 29,
     categoryFrench: "Menu enfant",
     categoryEnglish: "for the kids",
-    frenchDescription:
-      "Filet de poulet pané ou mini margarita ou linguini / jambon  + dessert",
-    englishDescription:
-      "Breaded chicken fillet or mini margarita or linguini / ham + dessert",
+    frenchDescription: "Filet de poulet pané ou mini carbonara  + dessert",
+    englishDescription: "Breaded chicken fillet or mini carbonara + dessert",
     price: 18,
     perPerson: false,
     eveningOnly: false,
   },
-  // {
-  //   index: 30,
-  //   categoryFrench: "Les Pizzas",
-  //   name: "Tartufo",
-  //   frenchDescription:
-  //     "Crème, truffe,mozzarella,burrata, roquette, copeaux parmesan",
-  //   englishDescription:
-  //     "Cream, truffle, mozzarella, rocket, parmigiano shavings",
-  //   price: 38,
-  //   perPerson: false,
-  //   eveningOnly: false,
-  // },
+  {
+    index: 30,
+    categoryFrench: "Les Pizzas",
+    name: "Tartufo",
+    frenchDescription:
+      "Crème, truffe,mozzarella,burrata, roquette, copeaux parmesan",
+    englishDescription:
+      "Cream, truffle, mozzarella, rocket, parmigiano shavings",
+    price: 38,
+    perPerson: false,
+    eveningOnly: false,
+  },
 
   {
     index: 31,
@@ -561,8 +586,9 @@ export const menu = [
   {
     index: 43,
     categoryFrench: "Les Desserts",
-    name: "Notre Carte des desserts du moment",
-    englishDescription: "Our dessert menu of the moment",
+    name: "Notre Carte des desserts évolue au fil de l’inspiration du pâtissier",
+    englishDescription:
+      "Our dessert menu evolves according to the pastry chef's inspiration",
     price: 14,
     perPerson: false,
     eveningOnly: false,
