@@ -209,7 +209,7 @@ export const menu = [
     index: 15,
     categoryFrench: "La Viande",
     categoryEnglish: "Meat",
-    name: "Burger Savoyard",
+    name: "Burger Savoyard (version végétarienne / vergetarian version)",
     frenchDescription:
       "Raclette, steak haché, bacon, tomate, salade, oignons + frites",
     englishDescription:
